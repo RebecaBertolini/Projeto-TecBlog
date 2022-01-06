@@ -1,0 +1,124 @@
+* {
+	margin: 0px;
+	padding: 0px;
+/*Limpando formatações padrão*/
+}
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+/*
+*****Layout*****
+*/
+
+#area-cabecalho {
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+#area-logo {
+	padding: 10px;
+}
+#area-menu {
+	padding: 10px;
+}
+#area-principal {
+	width: 920px;
+	margin: 20px auto;
+}
+
+#area-lateral {
+	background: white;
+	width: 240px;
+	float: right;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#rodape {
+	background: #ccc;
+	clear: both;
+	text-align: center;
+	padding: 15px;
+}
+
+#area-assinatura {
+	background: #ccc;
+	border: 4px dotted #f7b600;
+	position: fixed;
+	right: 0px;
+	bottom: 10px;
+	padding: 10px;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+.conteudo-lateral {
+padding: 10px;
+margin-bottom: 20px;
+}
+.texto-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 2px dotted #ccc;
+}
+/*
+*****Formatação dos links*****
+*/
+a {
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+ a:link, a:visited {
+ 	color: #F7b600;
+}
+ a:hover {
+	color: #FFF;
+	background: #f7b600;
+	padding: 2px;
+}
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+#area-cabecalho a:hover {
+	color: #f7b600;
+	background: white;
+}
+
+/*
+*****Formatações em geral*****
+*/
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #f7b600;
+}
+.branco {
+	color: white;
+}
+h3 {
+	color: #565656;
+	background: #ccc;
+	padding: 5px;
+}
